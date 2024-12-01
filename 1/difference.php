@@ -4,7 +4,6 @@ $stream = fopen(__DIR__ . "/input.txt", "r");
 
 $left = [];
 $right = [];
-$diff = [];
 
 while ($line = fgets($stream)) {
     $split = explode("   " ,$line);
